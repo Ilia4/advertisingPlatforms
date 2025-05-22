@@ -17,3 +17,14 @@
 Газета уральских москвичей:/ru/msk,/ru/permobl,/ru/chelobl
 
 Крутая реклама:/ru/svrd
+
+### `POST /api/AdPlatform/load`
+
+Загружает данные из файла `platforms.txt`, находящегося в корне проекта.
+
+**Request:**
+```json
+"any"
+
+**Response:**
+
