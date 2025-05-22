@@ -54,18 +54,18 @@
 
 1. Установите .NET 8 SDK
 2. Клонируйте репозиторий:
-  ```powershell
+```powershell
   git clone https://github.com/your-username/advertising-platforms-api.git
 
   cd advertising-platforms-api
 ```
 3. Поместите файл platforms.txt в корень проекта.
 4. Запустите приложение:
-   ```powershell
+```powershell
    dotnet run
-   ```
+```
 5. Откройте Swagger по адресe:
-   [https://localhost:7003/swagger/index.html](https://localhost:7003/swagger/index.html)
+[https://localhost:7003/swagger/index.html](https://localhost:7003/swagger/index.html)
 
 ## Примеры локаций для теста
 
@@ -75,3 +75,6 @@
 /ru/svrd| Яндекс.Директ, Крутая реклама
 /ru/svrd/revda | Яндекс.Директ, Крутая реклама, Ревдинский рабочий
 /ru/msk | Яндекс.Директ, Газета уральских москвичей
+
+## Тесты
+Юнит-тесты можно добавить для AdPlatformServices.Search(), чтобы убедиться в корректности работы поиска. <(Пока отсутствуют.)>
