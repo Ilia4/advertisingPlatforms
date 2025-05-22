@@ -49,3 +49,13 @@
   "Крутая реклама"
 ]
 ```
+
+## Как запустить
+
+1. Установите .NET 8 SDK
+2. Клонируйте репозиторий:
+  ```powershell
+  git clone https://github.com/your-username/advertising-platforms-api.git
+
+  cd advertising-platforms-api
+```
